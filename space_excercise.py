@@ -55,4 +55,4 @@ def transmission_attempt(packet: snl.Packet):
             raise BrokenConnectionError("Don't try again!")
 
 
-nasa = snl.SpaceNetwork(level=4)
+nasa = snl.SpaceNetwork(level=5)
